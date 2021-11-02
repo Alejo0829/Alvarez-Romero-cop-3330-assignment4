@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ucf.assignments.HelloController">
+    <children>
+        <VBox layoutX="180.0" layoutY="104.0" prefHeight="243.0" prefWidth="242.0">
+            <children>
+                <Label text="Name of Item" />
+                <TextField fx:id="CreateToDoListName" onAction="#CreateToDoListName" />
+                <Label text="Description" />
+                <TextField fx:id="AddDescription" onAction="#AddDescription" />
+                <Label text="Date due" />
+                <DatePicker fx:id="DueDatePicker" onAction="#DueDatePicker" />
+                <Label text="Status" />
+                <ChoiceBox fx:id="StatusDropDownPicker" prefWidth="150.0" />
+            </children>
+        </VBox>
+        <Button fx:id="SubmitNewToDoListButton" layoutX="128.0" layoutY="322.0" mnemonicParsing="false" onAction="#SubmitNewToDoListButton" text="Submit" />
+        <Button fx:id="submit" layoutX="128.0" layoutY="26.0" mnemonicParsing="false" onAction="#submit" text="Back" />
+    </children>
+</Pane>

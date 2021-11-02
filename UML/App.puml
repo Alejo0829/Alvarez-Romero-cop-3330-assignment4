@@ -1,0 +1,30 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 4 Solution
+ *  Copyright 2021 Rafael Alvarez-Romero
+ */
+
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class HelloApplication{
+-start()
+-main()
+}
+
+class HelloController{
+
+}
+
+class ItemFunctions{
+}
+
+class ListFunctions{
+}
+
+class Navigator{
+}
+
+JaxaFX.GUI = HelloApplication
+JaxaFX.GUI = HelloController
+
+@enduml
